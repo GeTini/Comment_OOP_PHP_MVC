@@ -1,0 +1,38 @@
+
+#view-source {
+  position: fixed;
+  display: block;
+  right: 0;
+  bottom: 0;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  z-index: 900;
+}
+
+.demo-card-wide.mdl-card {
+  /*width: 512px;*/
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 200px;
+  /*background: url('images/DELL_VOSTRO_V13.jpg') center / cover;*/
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.demo-card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.4);
+}
+.demo-card-image__filename {
+  color: #fff;
+  font-size: 14px;
+  /*font-weight: 500;*/
+}
+
+p {
+  font-size: 16px;
+  margin: 0px 17px;
+}
